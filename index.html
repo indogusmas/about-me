@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="dist/output.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar start -->
+    <header class="bg-transparant absolute p-1 top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="" class="font-bold text-lg text-primary block py--6">
+                        Indo Gusmas
+                    </a>
+                </div>
+                <div class="flex items-center py-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out  origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg
+                   max-w-[250px] w-full right-4 top-full lg:bg-transparent lg:block lg:static lg:max-w-full lg:shadow-none rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">About</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Contact</a>
+                            </li>
+                            <li class="group">
+                                <a href="#portfolio"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Portfolio</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Navbar end -->
+
+    <!-- Hero section Start -->
+    <section id="home" class="mt-10">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-base font-semiblod text-primary">Hello everyone ,I 'am <span
+                            class="block font-bold text-dark text-4xl mt-1">Indo Gusmas</span></h1>
+                    <h2 class="font-medium text-slate-500 text-lg mb-5">Software Engineer</h2>
+                    <p class="font-medium text-slate-400 mb-10">I'm an android and backend developer. I Have exeprience in integrating mobile apps and web apps with API also I have an experience creating cms with Laravel.</p>
+                    
+                </div>
+                <div class="w-full self-end px-4 lg:w-1/2">
+                    <div class="relative mt-10 lg:mt-9 lg:right-0">
+                        <img src="dist/img/user.png" alt="Indo Gusmas" class="max-w-full mx-auto">
+                        <span class="absolute bottom-0 -z-10 -translate-x-1/2 left-1/2 md:scale-125">
+                            <svg widht="300" height="300" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#14b8a6"
+                                    d="M38.5,-53.3C52.8,-42.5,69.4,-35.2,77.1,-22.5C84.8,-9.7,83.7,8.6,76.1,22.6C68.6,36.6,54.7,46.3,40.9,57.2C27.2,68.1,13.6,80.1,-1.5,82.1C-16.5,84.1,-33,76.2,-44.6,64.6C-56.2,53,-62.8,37.8,-65.3,22.9C-67.8,8,-66.3,-6.5,-61.7,-19.8C-57.1,-33.2,-49.4,-45.4,-38.6,-57.3C-27.9,-69.3,-13.9,-81.1,-0.9,-79.8C12.1,-78.5,24.1,-64.2,38.5,-53.3Z"
+                                    transform="translate(100 100) scale(1)" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="pt-36 pb-36">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-10 lg:w-1/2">
+                    <h4 class="font-bold uppercase text-primary text-lg mb-3">About Me</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptate illo iusto dicta
+                        maxime aliquam harum minus nihil, sunt aspernatur quae, sed sit ex quod est! Dicta suscipit
+                        blanditiis eveniet.</p>
+                </div>
+                <div class="w-full px-4 lg:w-1/2">
+                    <h4 class="font-bold uppercase text-primary text-lg mb-3">Contact Me</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias tempora ab deleniti
+                        reiciendis cum labore blanditiis dolorum commodi?</p>
+                    <div class="flex item-center mt-2">
+                        <!-- Github -->
+                        <a href="https://github.com/indogusmas" target="blank"
+                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <title>GitHub</title>
+                                <path
+                                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                            </svg>
+                        </a>
+                        <!-- Linkedin -->
+                        <a href="https://www.linkedin.com/in/indo-gusmas-a98111142/" target="blank"
+                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                            <svg role="img" width="20" viewBox="0 0 24 24" class="fill-current"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <title>LinkedIn</title>
+                                <path
+                                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Portfolio Start-->
+    <section id="portfolio" class="pt-24 pb-16 bg-slate-100">
+        <div class="container">
+            <div class="w-full-px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h2 class="font-bold text-dark text-3xl mb-4">Project</h2>
+                    <p class="font-medium text-md text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur qui iste autem voluptates quidem expedita dolorum aut consequatur saepe eum.</p>
+                </div>
+            </div>
+            <div class="w-full px-4 flex flex-wrap justify-center">
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="dist/img/portfolio/web-admin-v1.png" alt="web-admin" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+                        <a href="http://indodashboard.com" target="blank">Web Admin with Laravel 8</a>
+                    </h3>
+                    <p class="font-medium text-base text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni accusantium id neque?</p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="dist/img/portfolio/compress.png" alt="web-admin" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+                       <a href="https://bit.ly/34mI8ul" target="blank">App Compress Image</a>
+                    </h3>
+                    <p class="font-medium text-base text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni accusantium id neque?</p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="dist/img/portfolio/banner.png" alt="web-admin" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3"> 
+                        <a href="https://bit.ly/34mI8ul" target="blank">App Signature Digital</a>
+                    </h3>
+                    <p class="font-medium text-base text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni accusantium id neque?</p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="dist/img/portfolio/sound_animal.png" alt="web-admin" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+                        <a href="https://bit.ly/3NCF9jg" target="blank">App Sound Animal</a>
+                    </h3>
+                    <p class="font-medium text-base text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni accusantium id neque?</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- Portfolio end -->
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="text-center p-6 bg-gray-200">
+            <span>© 2021 Copyright:</span>
+            <a class="text-gray-600 font-semibold">indo Gusmas</a>
+          </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="dist/src/script.js">
+
+    </script>
+</body>
+
+</html>
